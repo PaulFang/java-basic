@@ -22,11 +22,6 @@
   		<version>13.0</version>
   	</dependency>
   
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
   <description>http://www.cnblogs.com/peida/archive/2013/06/14/Guava_Optional.html</description>
 </project>
