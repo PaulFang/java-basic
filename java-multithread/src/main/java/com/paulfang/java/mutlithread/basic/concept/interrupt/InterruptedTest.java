@@ -2,7 +2,14 @@ package com.paulfang.java.mutlithread.basic.concept.interrupt;
 /**
  * Notice the API documentation of the method interrupted of Thread.
  * "Tests whether the current thread has been interrupted. "
- * For this demonstrate program, the current thread is main thread.
+ * For this demonstrate program, the current thread is main thread.<br><br>
+ * 
+ * Thread.interrupted() : tests whether the current thread has been interrupted.  The
+ * <i>interrupted status</i> of the thread is cleared by this method.  In
+ * other words, if this method were to be called twice in succession, the
+ * second call would return false (unless the current thread were
+ * interrupted again, after the first call had cleared its interrupted
+ * status and before the second call had examined it).
  */
 public class InterruptedTest {
 
